@@ -9516,11 +9516,262 @@ class VisionQuestionnaire02{
   ]; return data[clsLanguagePreset.languageSelect(language)];}
 }
 class clsVision03{
+  static String objective_1(String language){ List<String> data = [
+    'To recognize Jesus as the Messiah and the only foundation upon which to build the Church. ',
+    'Upang kilalanin si Hesus bilang ang Mesiyas at ang tanging pundasyon kung saan itatayo ang Simbahan. ',
+    'Para pag-ila kang Jesus ingon nga Mesiyas ug ang bugtong pundasyon diin tukoron ang Simbahan. ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String objective_2(String language){ List<String> data = [
+    'To recognize some of the fundamental characteristics of the Church of God. ',
+    'Upang makilala ang ilan sa mga pangunahing katangian ng Iglesia ng Diyos.',
+    'Sa pag-ila sa pipila ka sukaranang mga kinaiya sa Simbahan sa Dios. ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String objective_3(String language){ List<String> data = [
+    'To receive the inspiration to be a witness to the message of the Cross. ',
+    'Upang matanggap ang inspirasyon upang maging saksi sa mensahe ng Krus.',
+    'Aron makadawat sa inspirasyon nga mahimong saksi sa mensahe sa Krus.',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String objective_4(String language){ List<String> data = [
+    'To understand the different ways you can demonstrate love for our sheep (disciples). ',
+    'Upang maunawaan ang iba\'t ibang paraan kung paano mo maipapakita ang pagmamahal sa ating mga tupa (mga disipulo). ',
+    'Aron masabtan ang lain-laing mga paagi nga imong mapakita ang gugma sa atong mga karnero (mga tinun-an). ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_01(String language){ List<String> data = [
+    '"Who do people say the Son of Man is?" They replied, "Some say John the Baptist; others say Elijah; and still others, Jeremiah or one of the prophets." "But what about you?" he asked. "Who do you say I am?" Simon Peter answered, "You are the Christ, the Son of the living God." Jesus replied, "Blessed are you, Simon son of Jonah, for this was not revealed to you by man, but by my Father in heaven. And I tell you that you are Peter, and on this rock I will build my church, and the gates of Hades will not overcome it. I will give you the keys of the kingdom of heaven; whatever you bind on earth will be bound in heaven, and whatever you loose on earth will be loosed in heaven" (Matthew 16:13-19). ',
+    '"Sino ang sabi ng mga tao ang Anak ng Tao?" Sumagot sila, "May nagsasabi na si Juan Bautista; ang iba ay nagsasabi na si Elias; at ang iba naman, si Jeremias o isa sa mga propeta." "Ngunit paano ang tungkol sa iyo?" tanong niya. "Sino daw ako?" Sumagot si Simon Pedro, "Ikaw ang Kristo, ang Anak ng Diyos na buhay." Sumagot si Jesus, "Mapalad ka, Simon na anak ni Jonas, sapagkat hindi ito ipinahayag sa iyo ng tao, kundi ng aking Ama na nasa langit. At sinasabi ko sa iyo na ikaw ay Pedro, at sa ibabaw ng batong ito ay itatayo ko ang aking simbahan, at ang mga pintuan ng Hades ay hindi mananaig dito. Ibibigay ko sa iyo ang mga susi ng kaharian ng langit: anomang iyong talian sa lupa ay tatalian sa langit, at anomang iyong kalagan sa lupa ay kakalagan sa langit" (Mateo 16:13-13)',
+    '"Sumala sa mga tawo, kinsa man ang Anak sa Tawo?" Sila mitubag, "Ang uban nag-ingon nga si Juan Bautista; ang uban nag-ingon nga si Elias; ug ang uban pa, si Jeremias o usa sa mga propeta." "Apan unsa man ang bahin kanimo?" nangutana siya. "Kinsa man ko ani nimo?" Si Simon Pedro mitubag, "Ikaw mao ang Kristo, ang Anak sa buhi nga Dios." Si Jesus mitubag, "Bulahan ikaw, Simon, anak ni Jonas, kay kini wala ipadayag kanimo sa tawo, kondili sa akong Amahan sa langit. Ug sultihan ko ikaw nga ikaw mao si Pedro, ug sa ibabaw niining bato pagatukoron ko ang akong iglesia, ug ang mga ganghaan sa Hades dili makabuntog niini. Ihatag ko kanimo ang mga yawe sa gingharian sa langit; bisan unsa nga imong gapuson dinhi sa yuta, didto sa langit pagailhon usab kini nga binugkos, ug bisan unsa nga imong hubaran dinhi sa yuta pagahubaran sa langit" (Mateo 16:13-13)). ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_02(String language){ List<String> data = [
+    'Near the beginning of His ministry, Jesus met with His disciples and discussed with them His plans for the foundation of His Church that He would build. ',
+    'Sa pagsisimula ng Kanyang ministeryo, nakipagpulong si Jesus sa Kanyang mga disipulo at tinalakay sa kanila ang Kanyang mga plano para sa pundasyon ng Kanyang Simbahan na Kanyang itatayo. ',
+    'Sa hapit na ang sinugdanan sa Iyang pangalagad, si Jesus nakigkita sa Iyang mga disipulo ug naghisgot uban nila sa Iyang mga plano alang sa pundasyon sa Iyang Simbahan nga Iyang tukoron. ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_03_1(String language){ List<String> data = [
+    'How do other people see Me?  ',
+    'Paano Ako nakikita ng ibang tao? ',
+    'Giunsa ang pagtan-aw sa ubang mga tawo Kanako? ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_03_2(String language){ List<String> data = [
+    '(v. 13). Jesus wanted to know how His influence was developing within the community. ',
+    '(v. 13). Nais malaman ni Jesus kung paano umuunlad ang Kanyang impluwensya sa loob ng komunidad. ',
+    '(b. 13). Gusto ni Jesus nga mahibal-an kung giunsa ang pag-uswag sa Iyang impluwensya sulod sa komunidad. ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_03_3(String language){ List<String> data = [
+    'How do you see Me?  ',
+    'Paano mo Ako nakikita? ',
+    'Giunsa nimo pagtan-aw Kanako? ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_03_4(String language){ List<String> data = [
+    '(v.15). Jesus wanted to know if they had already received the revelation that He was the Christ. ',
+    '(v.15). Nais malaman ni Jesus kung natanggap na nila ang paghahayag na Siya ang Kristo. ',
+    '(v.15). Si Jesus gustong mahibalo kon nakadawat na ba sila sa pagpadayag nga Siya mao ang Kristo. ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_03_5(String language){ List<String> data = [
+    'How did Jesus see His disciples?   ',
+    'Paano nakita ni Jesus ang Kanyang mga disipulo? ',
+    'Sa unsang paagi nakita ni Jesus ang Iyang mga disipulo? ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_03_6(String language){ List<String> data = [
+    '(v.18a). Simon recognized who Jesus was, even though he was someone prone to being inconsistent, impulsive and unnecessarily reactive to circumstances. Despite all of Simon\'s character flaws, Jesus could see strength, like that of a rock, in his heart; when He prophetically declared this over his life, that strength rose to the surface, and also spread to the other apostles. ',
+    '(v.18a). Nakilala ni Simon kung sino si Jesus, kahit na siya ay isang taong madaling maging pabagu-bago, pabigla-bigla at hindi kinakailangang reaktibo sa mga pangyayari. Sa kabila ng lahat ng pagkukulang ni Simon, nakita ni Jesus ang lakas, tulad ng bato, sa kanyang puso; nang propesiya Niyang ipahayag ito sa kanyang buhay, ang lakas na iyon ay bumangon, at lumaganap din sa iba pang mga apostol. ',
+    '(v.18a). Naila ni Simon kung kinsa si Jesus, bisan kung siya usa ka tawo nga dali nga mahimong dili managsama, mapugsanon ug dili kinahanglan nga reaksyon sa mga kahimtang. Bisan pa sa tanang depekto sa kinaiya ni Simon, nakita ni Jesus ang kusog, sama nianang sa bato, sa iyang kasingkasing; sa dihang Iyang gipahayag kini sa matagnaong paagi sa tibuok niyang kinabuhi, kana nga kusog misaka sa ibabaw, ug mikaylap usab ngadto sa ubang mga apostoles. ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_03_7(String language){ List<String> data = [
+    'Jesus includes them in the building of His Church   ',
+    'Isinama sila ni Jesus sa pagtatayo ng Kanyang Simbahan ',
+    'Gilakip sila ni Jesus sa pagtukod sa Iyang Simbahan ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_03_8(String language){ List<String> data = [
+    'Church (v.18b). The word that the Lord gave to Peter is also for other believers.  ',
+    'Simbahan (v.18b). Ang salita na ibinigay ng Panginoon kay Pedro ay para din sa ibang mananampalataya. ',
+    'Simbahan (v.18b). Ang pulong nga gihatag sa Ginoo kang Pedro para usab sa ubang mga magtutuo. ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_03_9(String language){ List<String> data = [
+    '"You also, like living stones, are being built into a spiritual house to be a holy priesthood, offering spiritual sacrifices acceptable to God through Jesus Christ"  ',
+    '"Kayo rin, tulad ng mga batong buhay, ay itinatayo sa isang espirituwal na bahay upang maging isang banal na pagkasaserdote, na naghahandog ng mga espirituwal na hain na kaayaaya sa Diyos sa pamamagitan ni Jesu-Cristo" ',
+    '“Kamo usab, sama sa buhing mga bato, ginatukod ngadto sa usa ka espirituhanong balay aron mahimong balaan nga pagkasacerdote, nga magahalad ug espirituhanong mga halad nga nahamut-an sa Dios pinaagi kang Jesu-Kristo.” ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_03_10(String language){ List<String> data = [
+    '(1 Peter 2:5). ',
+    '(1 Pedro 2:5). ',
+    '(1 Pedro 2:5). ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_03_11(String language){ List<String> data = [
+    'Jesus ensured them that His Church would prevail through all adversity   ',
+    'Tiniyak ni Jesus sa kanila na ang Kanyang Simbahan ay mananaig sa lahat ng kahirapan ',
+    'Si Jesus misiguro kanila nga ang Iyang Simbahan mopatigbabaw sa tanang kalisdanan ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_03_12(String language){ List<String> data = [
+    '(v.18c). As long as believers have a good relationship with the Holy Spirit, they will overcome all demonic opposition. ',
+    '(v.18c). Hangga\'t ang mga mananampalataya ay may mabuting relasyon sa Banal na Espiritu, malalampasan nila ang lahat ng pagsalungat ng demonyo. ',
+    '(v.18c). Hangtud nga ang mga magtotoo adunay maayo nga relasyon sa Balaang Espiritu, ilang mabuntog ang tanan nga pagsupak sa demonyo. ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_03_13(String language){ List<String> data = [
+    'God entrusted them with the key for the salvation of souls ',
+    'Ipinagkatiwala sa kanila ng Diyos ang susi para sa kaligtasan ng mga kaluluwa ',
+    'Ang Dios mitugyan kanila sa yawe alang sa kaluwasan sa mga kalag ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_03_14(String language){ List<String> data = [
+    '(v.19a). During the feast of Pentecost, Peter took advantage of the fact that thousands of Jews had come together, surprised by what had happened in the upper room. He preached the Word to them, winning three thousand people for Christ (Acts 2:41). ',
+    '(v.19a). Sa panahon ng kapistahan ng Pentecostes, sinamantala ni Pedro ang katotohanan na libu-libong Judio ang nagsama-sama, na nagulat sa nangyari sa silid sa itaas. Ipinangaral niya ang Salita sa kanila, na nanalo ng tatlong libong tao para kay Kristo (Mga Gawa 2:41). ',
+    '(v.19a). Sa panahon sa pista sa Pentecostes, gipahimuslan ni Pedro ang kamatuoran nga libolibo ka mga Hudiyo ang nagtigom, nga natingala sa nahitabo sa lawak sa itaas. Iyang giwali ang Pulong ngadto kanila, nakadaog ug tulo ka libo ka mga tawo alang kang Kristo (Mga Buhat 2:41). ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String intro_paragraph_03_15(String language){ List<String> data = [
+    'God gave them powerful spiritual authority, so that whatever they did on earth would have an effect in heaven (v.19b). ',
+    'Binigyan sila ng Diyos ng makapangyarihang espirituwal na awtoridad, upang anuman ang kanilang ginawa sa lupa ay magkaroon ng epekto sa langit (v.19b). ',
+    'Gihatagan sila sa Dios ug gamhanang espirituhanong awtoridad, aron ang bisan unsa nga ilang gibuhat dinhi sa yuta adunay epekto sa langit (v.19b). ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String jesus_the_paragraph_01_1(String language){ List<String> data = [
+    'The Church of the Lord Jesus Christ, (by this I mean that there is only really one Church, that for which Christ gave up his life), was established on a firm foundation, Jesus Christ, the cornerstone upon which the weight of this spirit building rests. Upon this foundation were placed twelve columns - Jesus\' twelve apostles; later would come the living stones - the believers. ',
+    'Ang Simbahan ng Panginoong Jesu-Kristo, (sa pamamagitan nito, ang ibig kong sabihin ay mayroon lamang talagang isang Simbahan, na kung saan ibinigay ni Kristo ang kanyang buhay), ay itinatag sa isang matatag na pundasyon, si Jesu-Kristo, ang batong panulok kung saan ang bigat ng espiritung ito. mga pahingahan ng gusali. Sa pundasyong ito ay inilagay ang labindalawang hanay - labindalawang apostol ni Hesus; mamaya ay darating ang buhay na mga bato - ang mga mananampalataya. ',
+    'Ang Simbahan ni Ginoong Jesukristo, (niini akong gipasabot nga adunay usa lamang ka Simbahan, nga alang niini gitugyan ni Kristo ang iyang kinabuhi), gitukod sa lig-on nga pundasyon, si Jesukristo, ang batong pamag-ang diin ang gibug-aton niini nga espiritu pahulay sa building. Sa ibabaw niini nga patukoranan gibutang ang napulog-duha ka mga kolum - dose ka mga apostoles ni Jesus; sa ulahi moabut ang buhing mga bato - ang mga magtotoo. ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String jesus_the_paragraph_01_2(String language){ List<String> data = [
+    '"Built on the foundation of the apostles and prophets, with Christ Jesus himself as the chief cornerstone" ',
+    '"Na itinayo sa ibabaw ng kinasasaligan ng mga apostol at mga propeta, na si Cristo Jesus mismo ang pangunahing batong panulok" ',
+    '"Gitukod ibabaw sa patukoranan sa mga apostoles ug mga propeta, uban kang Kristo Jesus sa iyang kaugalingon ingon nga pangulong bato sa pamag-ang" ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String jesus_the_paragraph_01_3(String language){ List<String> data = [
+    '(Ephesians 2:20). ',
+    '(Efeso 2:20). ',
+    '(Efeso 2:20). ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String knowing_that_the_paragraph_01_1(String language){ List<String> data = [
+    '"How God anointed Jesus of Nazareth with the Holy Spirit and power, and how he went around doing good and healing all who were under the power of the devil, because God was with him. "We are witnesses of everything he did in the country of the Jews and in Jerusalem. They killed him by hanging him on a cross, but God raised him from the dead on the third day and caused him to be seen. He was not seen by all the people, but by witnesses whom God had already chosen - by us who ate and drank with him after he rose from the dead. He commanded us to preach to the people and to testify that he is the one whom God appointed as judge of the living and the dead. All the prophets testify about him that everyone who believes in him receives forgiveness of sins through his name" ',
+    '"Kung paanong pinahiran ng Diyos si Jesus na taga-Nazaret ng Banal na Espiritu at kapangyarihan, at kung paano siya lumibot na gumagawa ng mabuti at nagpapagaling sa lahat ng nasa ilalim ng kapangyarihan ng diyablo, sapagkat ang Diyos ay sumasakaniya. "Kami ay mga saksi sa lahat ng kanyang ginawa sa bansa. ng mga Hudyo at sa Jerusalem. Pinatay nila siya sa pamamagitan ng pagbibitay sa krus, ngunit ibinangon siya ng Diyos mula sa mga patay sa ikatlong araw at ipinakita siya. Hindi siya nakita ng lahat ng tao, ngunit sa pamamagitan ng mga saksi na pinili na ng Diyos - sa amin na kumain at uminom na kasama niya pagkatapos niyang mabuhay mula sa mga patay. Iniutos niya sa amin na mangaral sa mga tao at magpatotoo na siya ang hinirang ng Diyos bilang hukom ng mga buhay at mga patay. Ang lahat ng mga propeta ay nagpapatotoo tungkol sa kanya na ang bawat sumasampalataya sa kanya ay tumatanggap ng kapatawaran ng mga kasalanan sa pamamagitan ng kanyang pangalan." ',
+    '"Giunsa ang pagdihog sa Dios kang Jesus nga Nazaretnon sa Espiritu Santo ug gahum, ug giunsa niya paglakawlakaw sa pagbuhat ug maayo ug pag-ayo sa tanan nga nailalum sa gahum sa yawa, tungod kay ang Dios nag-uban kaniya. "Kami mga saksi sa tanan nga iyang gibuhat sa yuta. sa mga Judio ug sa Jerusalem. Gipatay nila siya pinaagi sa pagbitay kaniya sa krus, apan gibanhaw siya sa Dios sa ikatulo ka adlaw ug nagpakita kaniya. Wala siya makita sa tanang mga tawo, kondili sa mga saksi nga gipili na sa Dios - kanamo nga mikaon ug miinom uban kaniya human siya mabanhaw gikan sa mga patay. Gisugo niya kami sa pagsangyaw ngadto sa mga tawo ug sa pagpamatuod nga siya mao ang gitudlo sa Dios nga maghuhukom sa mga buhi ug sa mga patay. Ang tanang mga propeta nagpamatuod mahitungod kaniya nga ang tanan nga motuo kaniya makadawat sa kapasayloan sa mga sala pinaagi sa iyang ngalan." ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String knowing_that_the_paragraph_01_2(String language){ List<String> data = [
+    '(Acts 10:38-43). Peter mentions several aspects relating to the Lord Jesus\' ministry: ',
+    '(Gawa 10:38-43). Binanggit ni Pedro ang ilang aspeto na may kaugnayan sa ministeryo ng Panginoong Jesus: ',
+    '(Binuhatan 10:38-43). Gihisgotan ni Pedro ang pipila ka aspeto nga may kalabotan sa ministeryo ni Ginoong Jesus: ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String knowing_that_the_paragraph_02_1(String language){ List<String> data = [
+    'His ministry on the earth was supernatural ',
+    'Ang kanyang ministeryo sa lupa ay supernatural ',
+    'Ang iyang ministeryo sa yuta labaw sa kinaiyahan ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String knowing_that_the_paragraph_02_2(String language){ List<String> data = [
+    'God entrusted the disciples with the mission to be witnesses of all that Jesus had done ',
+    'Ipinagkatiwala ng Diyos sa mga alagad ang misyon na maging saksi sa lahat ng ginawa ni Jesus ',
+    'Gitugyan sa Dios ang mga disipulo sa misyon nga mahimong mga saksi sa tanan nga gibuhat ni Jesus ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String knowing_that_the_paragraph_02_3(String language){ List<String> data = [
+    'He died and rose again on the third day ',
+    'Namatay siya at nabuhay muli sa ikatlong araw ',
+    'Namatay siya ug nabanhaw sa ikatulo ka adlaw ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String knowing_that_the_paragraph_02_4(String language){ List<String> data = [
+    'He sent them to tell the people that Jesus is the Judge of the living and the dead ',
+    'Ipinadala niya sila upang sabihin sa mga tao na si Jesus ang Hukom ng mga buhay at mga patay ',
+    'Iyang gipadala sila aron sa pagsulti sa mga tawo nga si Jesus mao ang Maghuhukom sa mga buhi ug sa mga patay ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String knowing_that_the_paragraph_02_5(String language){ List<String> data = [
+    'Everyone who believes in Him will receive forgiveness of sins ',
+    'Ang bawat sumasampalataya sa Kanya ay tatanggap ng kapatawaran ng mga kasalanan ',
+    'Ang matag usa nga mosalig Kaniya makadawat og kapasayloan sa mga sala ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String the_price_paragraph_01_1(String language){ List<String> data = [
+    'When Jesus saw the multitudes coming towards Him, He started teaching them, helping them understand that following Him would not necessarily be easy, knowing that some would not be willing to pay the price (Luke 14:25-33). ',
+    'Nang makita ni Jesus ang maraming tao na lumalapit sa Kanya, sinimulan Niya silang turuan, tinulungan silang maunawaan na ang pagsunod sa Kanya ay hindi talaga magiging madali, alam na ang ilan ay hindi handang magbayad ng halaga (Lucas 14:25-33). ',
+    'Sa dihang nakita ni Jesus ang mga panon sa katawhan nga nagpadulong Kaniya, Siya misugod sa pagtudlo kanila, nagtabang kanila nga makasabut nga ang pagsunod Kaniya dili kinahanglan nga sayon, kay nahibalo nga ang uban dili andam nga mobayad sa bili (Lucas 14:25–33). ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String the_price_paragraph_01_2(String language){ List<String> data = [
+    '\n\nWhat was the price? ',
+    '\n\nAno ang presyo? ',
+    '\n\nUnsa ang presyo? ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String the_price_paragraph_02_1(String language){ List<String> data = [
+    'To love Him above all members of our own family. ',
+    'Ang mahalin Siya ng higit sa lahat ng miyembro ng sarili nating pamilya. ',
+    'Ang paghigugma Kaniya labaw sa tanang sakop sa atong kaugalingong pamilya. ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String the_price_paragraph_02_2(String language){ List<String> data = [
+    '"If anyone comes to me and does not hate his father and mother, his wife and children, his brothers and sisters - yes, even his own life he cannot be my disciple" (Luke 14 v. 26). ',
+    '"Kung ang sinuman ay lumapit sa akin at hindi napopoot sa kanyang ama at ina, sa kanyang asawa at mga anak, sa kanyang mga kapatid na lalaki at babae - oo, kahit na ang kanyang sariling buhay ay hindi siya maaaring maging alagad ko" (Lucas 14 v. 26). ',
+    '“Kon adunay moduol kanako ug dili magdumot sa iyang amahan ug inahan, sa iyang asawa ug mga anak, sa iyang mga igsoong lalaki ug babaye – oo, bisan ang iyang kaugalingong kinabuhi dili siya mahimong akong tinun-an” (Lucas 14 v. 26). ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String the_price_paragraph_02_3(String language){ List<String> data = [
+    'To take up our cross and follow Him.  ',
+    'Upang pasanin ang ating krus at sumunod sa Kanya. ',
+    'Sa pagpas-an sa atong krus ug pagsunod Kaniya. ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String the_price_paragraph_02_4(String language){ List<String> data = [
+    '"And whoever does not carry their cross and follow me cannot be my disciple" (v. 27). ',
+    '"At ang hindi magpasan ng kanilang krus at sumunod sa akin ay hindi maaaring maging alagad ko" (v. 27). ',
+    '“Ug bisan kinsa nga dili magpas-an sa ilang krus ug mosunod kanako dili mahimo nga akong tinun-an” (v. 27). ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String the_price_paragraph_02_5(String language){ List<String> data = [
+    'To visualize ourselves having the strength to reach the end of the race. ',
+    'Upang mailarawan ang ating sarili na may lakas upang maabot ang dulo ng karera. ',
+    'Aron mahanduraw ang atong kaugalingon nga adunay kusog aron makaabut sa katapusan sa lumba. ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String the_price_paragraph_02_6(String language){ List<String> data = [
+    '"Suppose one of you wants to build a tower. Won\'t you first sit down and estimate the cost to see if you have enough money to complete it?" (v. 28). ',
+    '"Ipagpalagay na gusto ng isa sa inyo na magtayo ng tore. Hindi ba kayo maupo muna at tantiyahin ang halaga para makita kung may sapat kayong pera para tapusin ito?" (v. 28). ',
+    '"Pananglit usa kaninyo gustong magtukod ug tore. Dili ba molingkod una kamo ug banabana sa gasto kon aduna ka bay igong kuwarta aron makompleto kini?" (v. 28). ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String the_price_paragraph_02_7(String language){ List<String> data = [
+    'To finish what we start. ',
+    'Para tapusin ang nasimulan natin. ',
+    'Aron mahuman ang atong nasugdan. ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String the_price_paragraph_02_8(String language){ List<String> data = [
+    '"For if you lay the foundation and are not able to finish it, everyone who sees it will ridicule you, saying, This person began to build and wasn\'t able to finish" (v. 29-30). ',
+    '"Sapagka\'t kung ilalagay mo ang pundasyon at hindi mo ito magagawang tapusin, lahat ng nakakakita nito ay tutuya sa iyo, na magsasabi, Ang taong ito ay nagsimulang magtayo at hindi nakatapos" (v. 29-30). ',
+    '“Kay kon imong ipahimutang ang patukoranan ug dili ka makahimo sa paghuman niini, ang tanan nga makakita niini magbiaybiay kanimo, nga magaingon, Kining tawhana nagsugod sa pagtukod ug wala makahimo sa paghuman” (v. 29-30). ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String the_price_paragraph_02_9(String language){ List<String> data = [
+    'To give up everything we have. ',
+    'Para isuko lahat ng meron tayo. ',
+    'Para ihatag ang tanan nga naa nato. ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String the_price_paragraph_02_10(String language){ List<String> data = [
+    '"Or suppose a king is about to go to war against another king. Won\'t he first sit down and consider whether he is able with ten thousand men to oppose the one coming against him with twenty thousand? If he is not able, he will send a delegation while the other is still a long way off and will ask for terms of peace. In the same way, those of you who do not give up everything you have cannot be my disciples" (v. 31-33). ',
+    '"O ipagpalagay na ang isang hari ay malapit nang makipagdigma laban sa ibang hari. Hindi ba muna siya uupo at pag-isipan kung kaya niyang salungatin kasama ng sampung libong lalaki ang dumarating laban sa kanya na may dalawampung libo? Kung hindi niya kaya, siya ay magpapadala ng isang delegasyon habang ang isa ay malayo pa at hihingi ng mga tuntunin ng kapayapaan. Gayon din naman, ang hindi sumusuko sa lahat ng mayroon kayo ay hindi maaaring maging mga alagad ko" (v. 31-33). ',
+    '"O kon ang usa ka hari hapit na makiggubat batok sa laing hari. Dili ba siya molingkod pag-una ug mamalandong kon makahimo ba siya uban ang napulo ka libo ka mga tawo sa pagbatok sa usa nga mosulong batok kaniya uban ang kaluhaan ka libo? Kong siya dili makahimo, magpadala siya ug delegasyon samtang ang usa layo pa ug mangayo ug mga kondisyon sa kalinaw. Sa samang paagi, kadtong dili motugyan sa tanan nga anaa kanimo dili mahimo nga akong mga tinun-an" (v. 31-33). ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String being_paragraph_01(String language){ List<String> data = [
+    'The Early Church believers became witnesses, preaching with power from on high, just as the Lord had promised. ',
+    'Ang mga sinaunang mananampalataya sa Simbahan ay naging mga saksi, na nangangaral nang may kapangyarihan mula sa itaas, tulad ng ipinangako ng Panginoon. ',
+    'Ang unang mga magtutuo sa Simbahan nahimong mga saksi, nagwali uban sa gahum gikan sa kahitas-an, sumala sa gisaad sa Ginoo. ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String being_paragraph_02(String language){ List<String> data = [
+    '"With great power the apostles continued to testify to the resurrection of the Lord Jesus, and much grace was upon them all" (Acts 4:33). ',
+    '"Na may dakilang kapangyarihan ang mga apostol ay nagpatuloy na nagpatotoo sa muling pagkabuhay ng Panginoong Jesus, at maraming biyaya ang sumasa kanilang lahat" (Mga Gawa 4:33). ',
+    '“Uban sa dakung gahum ang mga apostoles nagpadayon sa pagpamatuod sa pagkabanhaw ni Ginoong Jesus, ug ang dakung grasya diha kanilang tanan” (Mga Buhat 4:33). ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String being_paragraph_03_1(String language){ List<String> data = [
+    'In his defense before King Agrippa, Paul said, ',
+    'Sa kanyang pagtatanggol sa harap ni Haring Agripa, sinabi ni Pablo, ',
+    'Sa iyang pagdepensa atubangan ni Haring Agripa, si Pablo miingon, ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String being_paragraph_03_2(String language){ List<String> data = [
+    '"So then, King Agrippa, I was not disobedient to the vision from heaven. First to those in Damascus, then to those in Jerusalem and in all Judea, and to the Gentiles also, I preached that they should repent and turn to God and prove their repentance by their deeds" ',
+    '"Kaya nga, Haring Agripa, hindi ako naging suwail sa pangitain mula sa langit. Una sa mga nasa Damasco, saka sa mga nasa Jerusalem at sa buong Judea, at sa mga Gentil din, ay ipinangaral ko na sila\'y mangagsisi at manumbalik sa Dios at patunayan ang kanilang pagsisisi sa pamamagitan ng kanilang mga gawa" ',
+    '"Busa, Haring Agripa, wala ako magsupak sa panan-awon gikan sa langit. Una sa mga atua sa Damasco, unya sa Jerusalem ug sa tibuok Judea, ug sa mga Gentil usab, nagwali ako nga kinahanglan sila maghinulsol ug mobalik sa Dios ug pamatud-i ang ilang paghinulsol pinaagi sa ilang mga buhat" ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+  static String being_paragraph_03_3(String language){ List<String> data = [
+    '(Acts 26:19-20). Since the moment of his conversion, Paul could clearly see his calling. He felt obligated to share the Gospel of salvation with each and every person (Romans 1:14). He never became ashamed of preaching the Gospel of Jesus Christ, because he knew that through it, the power of God was working to bring salvation (Romans 1:16). ',
+    '(Gawa 26:19-20). Mula sa sandali ng kanyang pagbabalik-loob, malinaw na nakita ni Paul ang kanyang pagtawag. Nadama niyang obligado siyang ibahagi ang Ebanghelyo ng kaligtasan sa bawat tao (Roma 1:14). Hindi niya kailanman ikinahiya ang pangangaral ng Ebanghelyo ni Jesucristo, dahil alam niya na sa pamamagitan nito, kumikilos ang kapangyarihan ng Diyos upang magdala ng kaligtasan (Roma 1:16). ',
+    '(Binuhatan 26:19-20). Sukad sa higayon sa iyang pagkakabig, klaro nga nakita ni Pablo ang iyang pagtawag. Siya mibati nga obligado sa pagpaambit sa Ebanghelyo sa kaluwasan sa matag usa ug matag tawo (Roma 1:14). Wala gayud siya maulaw sa pagsangyaw sa Ebanghelyo ni Jesukristo, tungod kay siya nasayud nga pinaagi niini, ang gahum sa Dios nagalihok aron sa pagdala sa kaluwasan (Roma 1:16). ',
+  ]; return data[clsLanguagePreset.languageSelect(language)];}
+
+
+
+
+
+
+
   static String paragraph_(String language){ List<String> data = [
     '',
     '',
     '',
   ]; return data[clsLanguagePreset.languageSelect(language)];}
+
+
+
+
 }
 class VisionQuestionnaire03{
   static String paragraph_(String language){ List<String> data = [
